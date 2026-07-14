@@ -1,4 +1,3 @@
-```markdown
 # MindStrength Enterprise Amazon S3 Platform
 
 ---
@@ -183,4 +182,3 @@ This project is inspired by AWS best practices and the Amazon S3 Production Caps
 *Prepared by: Jr. Cloud Engineer, MindStrength*  
 *Date: July 2026*  
 *Location: Singapore*  
-```
