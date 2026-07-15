@@ -24,3 +24,10 @@ cloudmart-enterprise-storage-platform/
 ├── README.md
 │
 └── LICENSE
+
+
+** Project overview **
+** Business problem **
+** Scope **
+** High-level architecture (placeholder for now) **
+** Technology stack (placeholder) **
