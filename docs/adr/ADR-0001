@@ -1,8 +1,13 @@
 Why Amazon S3 was chosen as the enterprise object storage platform.
-Regulatory and data residency requirements
-Network latency
-Regional resilience and fault isolation
-AWS service maturity and feature availability
-Operational complexity
-Recovery Time Objective (RTO)
-Recovery Point Objective (RPO)
+
+Amazon S3 was chosen as the enterprise object storage platform because:
+- CloudMart already operates its compute, networking, IAM, and monitoring workloads within AWS. Choosing Amazon S3 avoids introducing a second cloud provider for object storage, reducing operational complexity and enabling native integration with services such as IAM, CloudTrail, Lambda, CloudWatch, and SNS.
+
+- The existing Cloud Operations team possesses operational expertise in AWS services, reducing onboarding time, minimizing operational risk, and allowing faster incident response using established operational procedures.
+
+- CloudMart expects object storage to grow from approximately 500 GB during the initial deployment to multiple terabytes over the next several years. Amazon S3 provides virtually unlimited object storage without requiring capacity planning or storage provisioning
+
+- Amazon S3 provides native support for server-side encryption, bucket policies, IAM integration, Object Lock, versioning, and CloudTrail Data Events, enabling CloudMart to satisfy internal security policies and future regulatory compliance requirements.
+
+- Approximately 70% of CloudMart's historical files are rarely accessed after the first three months. Lifecycle policies automatically transition these objects into lower-cost storage classes, significantly reducing long-term storage costs without manual intervention.
+
